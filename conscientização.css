@@ -1,0 +1,101 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.header {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-icon {
+    display: none;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4CAF50;
+}
+.navbar-brand {
+    color: rgb(47, 112, 9);
+    font-weight: bold;
+}
+.navbar-toggler-icon {
+    background-image: url("Floresta.avif");
+}
+
+/* Carrossel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+/* Seção de Informações */
+.info-section {
+    background-color: #507242;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+.info-section h5 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+.info-section h4 {
+    color: #474642;
+}
+.info-section ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+.info-section ul li::before {
+    content: "- ";
+    color: #000000;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #4CAF50;
+}
+
+.social-icons img {
+    width: 20px;
+    margin: 0 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-icon {
+        display: block;
+    }
+}
+    .header h1 {
+        font-size: 1
+    }

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tree-icon {
+    font-size: 24px;
+}
+
+.points-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.donations {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donation-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.donation-item {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.donation-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.green-planet {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.green-planet img {
+    width: 60%;
+    height: auto;
+}
+
+.rewards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e6ffe6;
+}
+
+.reward-item {
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+
+.reward-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.donate-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
